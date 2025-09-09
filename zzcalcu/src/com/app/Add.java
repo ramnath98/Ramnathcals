@@ -60,4 +60,24 @@ public class Add {
 		
 	}
 
+	public void div()
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter First Number");
+		
+		int n1 = sc.nextInt();
+		
+        System.out.println("Enter Second Number");
+		
+		int n2 = sc.nextInt();
+		
+		int n3 = n1 / n2;
+		
+		System.out.println("div : "+n3);
+		
+		
+	}
+
+
 }
